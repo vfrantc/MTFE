@@ -20,7 +20,7 @@ from distutils.dir_util import copy_tree
 from matplotlib import pyplot as plt
 
 writer = SummaryWriter()
-GPU_NUM = 1
+GPU_NUM = 0
 
 
 def get_hist(file_name):
